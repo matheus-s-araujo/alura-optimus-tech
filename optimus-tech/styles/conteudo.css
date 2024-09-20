@@ -1,0 +1,27 @@
+.container__introducao {
+  height: 34rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introducao__sobre {
+  color: var(--vermelho);
+  font-weight: 600;
+}
+
+.introducao__titulo {
+  color: var(--azul-escuro);
+  margin: 2.8rem 0;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.introducao__texto {
+  height: 6.6rem;
+  width: 38%;
+  color: var(--cinza);
+  font-size: 20px;
+  font-weight: 400;
+}
