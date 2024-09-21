@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 2.8rem;
 }
 
 .cabecalho__logo {
@@ -22,7 +23,7 @@
 
 .cabecalho__login{
   text-decoration: none;
-  margin-right: 9rem;
+
 }
 
 .botoes__login {

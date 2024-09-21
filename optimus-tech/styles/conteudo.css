@@ -20,8 +20,46 @@
 
 .introducao__texto {
   height: 6.6rem;
-  width: 38%;
+  width: 50%;
+  text-align: center;
   color: var(--cinza);
   font-size: 20px;
   font-weight: 400;
+  line-height: 1.5em;
+}
+
+.container__diferenciais {
+  height: 24rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.diferencial-esquerda{
+  margin: 0 1.4rem 0 2.8rem;
+}
+
+.diferencial-central{
+  margin: 0 1.4rem 0 1.4rem;
+}
+
+.diferencial-direita{
+  margin: 0 2.8rem 0 1.4rem;
+}
+
+.diferencial-topico__titulo{
+  color: var(--vermelho);
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.diferencial-topico__subtitulo {
+  color: var(--azul-escuro);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 1.5rem 0;
+}
+
+.diferencial-topico__texto {
+  color: var(--cinza);
+  line-height: 1.5em;
 }
