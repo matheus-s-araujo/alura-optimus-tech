@@ -1,18 +1,32 @@
-.container__introducao {
-  height: 34rem;
+.container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.introducao__sobre {
+.container__introducao {
+  height: 34rem;
+}
+
+.container__frase {
   color: var(--vermelho);
+}
+
+.container__titulo {
+  color: var(--azul-escuro);
+}
+
+.container__texto {
+  color: var(--cinza);
+}
+
+.introducao__frase {
+  font-size: 16px;
   font-weight: 600;
 }
 
 .introducao__titulo {
-  color: var(--azul-escuro);
   margin: 2.8rem 0;
   font-size: 48px;
   font-weight: 600;
@@ -20,9 +34,8 @@
 
 .introducao__texto {
   height: 6.6rem;
-  width: 50%;
+  width: 55%;
   text-align: center;
-  color: var(--cinza);
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5em;
@@ -31,22 +44,15 @@
 .container__diferenciais {
   height: 24rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.diferencial-esquerda{
-  margin: 0 1.4rem 0 2.8rem;
+.diferencial {
+  flex: 1;
+  margin: 0 2.7rem;
 }
 
-.diferencial-central{
-  margin: 0 1.4rem 0 1.4rem;
-}
-
-.diferencial-direita{
-  margin: 0 2.8rem 0 1.4rem;
-}
-
-.diferencial-topico__titulo{
+.diferencial-topico__titulo {
   color: var(--vermelho);
   font-size: 60px;
   font-weight: 600;
@@ -62,4 +68,52 @@
 .diferencial-topico__texto {
   color: var(--cinza);
   line-height: 1.5em;
+}
+
+.container__procura {
+  padding-top: 8rem;
+}
+
+.procura__frase {
+  font-size: 14px;
+}
+
+.procura__titulo {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 1.3rem 0 1.6rem 0;
+}
+
+.procura__texto {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.imagem__equipe {
+  margin: 5.3rem 2.8rem;
+}
+
+.area-atuacao {
+  margin-bottom: 5.3rem;
+}
+
+.area-atuacao__titulo {
+  margin-bottom: 2.6rem;
+  color: var(--azul-escuro);
+  font-size: 20px;
+}
+
+.cargo-informacoes {
+  height: 7rem;
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem 2rem 2.3rem 2rem;
+}
+
+.cargo-informacoes__descricao {
+  color: var(--cinza);
+  display: flex;
+  gap: 3rem;
 }
