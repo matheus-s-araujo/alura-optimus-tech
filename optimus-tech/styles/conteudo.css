@@ -75,7 +75,15 @@
 }
 
 .procura__frase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 14px;
+  width: 10.5rem;
+  height: 2.4rem;
+  background-color: var(--vermelho-de-fundo);
+  border: 0px transparent;
+  border-radius: 1rem;
 }
 
 .procura__titulo {
@@ -107,13 +115,48 @@
   height: 7rem;
   width: 60rem;
   display: flex;
+  border: 1px solid var(--cor-da-borda);
+  border-radius: 1rem;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 2rem 2rem 2.3rem 2rem;
+  margin: 0 0 2rem 0;
 }
 
 .cargo-informacoes__descricao {
   color: var(--cinza);
   display: flex;
   gap: 3rem;
+}
+
+.container__colaborador {
+  padding: 5.3rem;
+  margin: 0 2.7rem 8rem 2.7rem;
+  background-color: var(--vermelho-de-fundo);
+  border: 0px transparent;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.colaborador__frase {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.colaborador__titulo {
+  font-size: 36px;
+  line-height: 1.2em;
+  padding: 0 5rem;
+  margin: 1.3rem 0 2.7rem 0;
+}
+
+.nome__colaborador {
+  margin: 1.4rem 0 0.4rem 0;
+  color: var(--azul-escuro);
+}
+
+.cargo__colaborador {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--cinza);
 }
